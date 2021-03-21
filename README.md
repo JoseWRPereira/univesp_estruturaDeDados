@@ -7,4 +7,5 @@
 * Pilha (Stack)
 * Fila encadeada
 * Pilha encadeada
+* Hash (sem tratamento de colisões)
 
