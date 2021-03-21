@@ -3,8 +3,8 @@
 ### Bimestre 05 - 2021_1
 
 * Classe 
-* Fila (Stack)
-* Pilha (Queue)
+* Fila (Queue)
+* Pilha (Stack)
 * Fila encadeada
 * Pilha encadeada
 
