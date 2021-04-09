@@ -6,8 +6,8 @@
 struct NodeType
 {
   Aluno aluno;
-  NodeType* esquerda;
-  NodeType* direita;
+  NodeType * esquerda;
+  NodeType * direita;
 };
 
 
@@ -18,8 +18,9 @@ class Tree
         ~Tree(){ destroyTree(root); }
         bool isEmpty() const;
         bool isFull() const;
-        void retrieveAluno(Aluno &item, bool &found) const{
-            retrieveAluno(root, item, found);
+        void retrieveAluno(Aluno &item, bool &found) const
+        {
+             retrieveAluno(root, item, found);
         }
         void insertAluno(Aluno item){ insertAluno(root, item); }  
         void deleteAluno(int item){ deleteAluno(root, item); }
